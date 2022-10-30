@@ -60,7 +60,7 @@ function HomeScreen() {
         {/* Featured Rows */}
         <FeaturedRow
           id='1'
-          title='Featured'
+          title='Kchay Restaurants'
           description='Place payments for our partners'
         />
         <FeaturedRow
