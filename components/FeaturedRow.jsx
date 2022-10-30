@@ -3,6 +3,7 @@ import { ScrollView, Text, View } from 'react-native'
 import {
   ArrowRightIcon
 } from 'react-native-heroicons/outline'
+import RestaurantCard from '../components/RestaurantCard';
 
 function FeaturedRow({id, title, description}) {
   return (
@@ -20,7 +21,55 @@ function FeaturedRow({id, title, description}) {
         }}
         className='pt-4'
       >
-
+        {/* RestaurantCards */}
+        <RestaurantCard
+          id={123}
+          imgUrl='https://links.papareact.com/gn7'
+          title='Yo! Sushi!'
+          rating={4.5}
+          genre="Japanese"
+          address='123 Main Street'
+          short_description='The best sushi in Japan'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl='https://links.papareact.com/gn7'
+          title='Yo! Sushi!'
+          rating={4.5}
+          genre="Japanese"
+          address='123 Main Street'
+          short_description='The best sushi in Japan'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl='https://links.papareact.com/gn7'
+          title='Yo! Sushi!'
+          rating={4.5}
+          genre="Japanese"
+          address='123 Main Street'
+          short_description='The best sushi in Japan'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl='https://links.papareact.com/gn7'
+          title='Yo! Sushi!'
+          rating={4.5}
+          genre="Japanese"
+          address='123 Main Street'
+          short_description='The best sushi in Japan'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
       </ScrollView>
     </View>
   )
