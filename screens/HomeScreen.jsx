@@ -65,18 +65,13 @@ function HomeScreen() {
         />
         <FeaturedRow
           id='2'
-          title='Featured'
-          description='Place payments for our partners'
+          title='Tasty Discounts'
+          description='Everyone is been enjoying these juicy discounts'
         />
         <FeaturedRow
           id='3'
-          title='Featured'
-          description='Place payments for our partners'
-        />
-        <FeaturedRow
-          id='4'
-          title='Featured'
-          description='Place payments for our partners'
+          title='Offers near you!'
+          description='Why not support your local restaurant tonight!'
         />
       </ScrollView>
     </SafeAreaView>
