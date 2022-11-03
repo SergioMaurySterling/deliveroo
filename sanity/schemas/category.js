@@ -4,14 +4,15 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'name',
+      title: 'Category Name',
       type: 'string',
+      validation: (Rule) => Rule.required()
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
+      name: 'image',
+      title: 'image',
+      type: 'Image of Category',
     },
   ],
 }
