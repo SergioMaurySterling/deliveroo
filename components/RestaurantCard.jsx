@@ -6,6 +6,7 @@ import {
 import {
   StarIcon
 } from 'react-native-heroicons/solid'
+import { urlFor } from '../sanity'
 
 const RestaurantCard = ({
   id,
@@ -25,7 +26,7 @@ const RestaurantCard = ({
     >
       <Image
         source={{
-          uri:imgUrl
+          uri:urlFor(imgUrl).url(),
         }}
         className='h-36 w-64 rounded-sm'
       />
