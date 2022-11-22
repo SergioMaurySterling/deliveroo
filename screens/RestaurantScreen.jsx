@@ -40,7 +40,7 @@ const RestaurantScreen = () => {
 
   return (
     <>
-      <BasketIcon/>
+      <BasketIcon />
       <ScrollView>
         <View
           className='relative'
