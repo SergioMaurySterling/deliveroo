@@ -43,9 +43,9 @@ function HomeScreen() {
           className='h-7 w-7 bg-gray-300 p-4 rounded-full'
         />
         <View className='flex-1'>
-          <Text className='font-bold text-gray-400 text-xs'>Deliver Now!</Text>
+          <Text className='font-bold text-gray-400 text-xs'>Pide ahora!</Text>
           <Text className='font-bold text-xl'>
-            Current Location
+            La casa de juan camilo
             <ChevronDownIcon size={20} color="#00CCBB" />
           </Text>
         </View>
